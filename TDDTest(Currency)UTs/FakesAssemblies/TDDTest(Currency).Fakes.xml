@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TDDTest(Currency).Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:TDDTest_Currency_.Fakes.ShimBank">
+            <summary>TDDTest_Currency_.Bank 的填充码类型</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimBank.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimBank.#ctor(TDDTest_Currency_.Bank)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimBank.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimBank.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimBank.AddRateStringStringInt32">
+            <summary>设置 Bank.AddRate(String from, String to, Int32 rate) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimBank.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimBank.Constructor">
+            <summary>设置 Bank.Bank() 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimBank.RateStringString">
+            <summary>设置 Bank.Rate(String from, String to) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimBank.ReduceIExpressionString">
+            <summary>设置 Bank.Reduce(IExpression source, String to) 的 填充码</summary>
+        </member>
+        <member name="T:TDDTest_Currency_.Fakes.ShimBank.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimBank.AllInstances.AddRateStringStringInt32">
+            <summary>设置 Bank.AddRate(String from, String to, Int32 rate) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimBank.AllInstances.RateStringString">
+            <summary>设置 Bank.Rate(String from, String to) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimBank.AllInstances.ReduceIExpressionString">
+            <summary>设置 Bank.Reduce(IExpression source, String to) 的 填充码</summary>
+        </member>
+        <member name="T:TDDTest_Currency_.Fakes.ShimMoney">
+            <summary>TDDTest_Currency_.Money 的填充码类型</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimMoney.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimMoney.#ctor(TDDTest_Currency_.Money)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimMoney.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimMoney.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimMoney.Bind(TDDTest_Currency_.IExpression)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.ConstructorInt32String">
+            <summary>设置 Money.Money(Int32 amount, String currency) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.DollarInt32">
+            <summary>设置 Money.Dollar(Int32 amount) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.EqualsObject">
+            <summary>设置 Money.Equals(Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.FrancInt32">
+            <summary>设置 Money.Franc(Int32 amount) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.GetCurrency">
+            <summary>设置 Money.GetCurrency() 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.PlusIExpression">
+            <summary>设置 Money.Plus(IExpression addend) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.ReduceBankString">
+            <summary>设置 Money.Reduce(Bank bank, String to) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.TimesInt32">
+            <summary>设置 Money.Times(Int32 multiplier) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.ToString">
+            <summary>设置 Money.ToString() 的 填充码</summary>
+        </member>
+        <member name="T:TDDTest_Currency_.Fakes.ShimMoney.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.AllInstances.EqualsObject">
+            <summary>设置 Money.Equals(Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.AllInstances.GetCurrency">
+            <summary>设置 Money.GetCurrency() 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.AllInstances.PlusIExpression">
+            <summary>设置 Money.Plus(IExpression addend) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.AllInstances.ReduceBankString">
+            <summary>设置 Money.Reduce(Bank bank, String to) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.AllInstances.TimesInt32">
+            <summary>设置 Money.Times(Int32 multiplier) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimMoney.AllInstances.ToString01">
+            <summary>设置 Money.ToString() 的 填充码</summary>
+        </member>
+        <member name="T:TDDTest_Currency_.Fakes.ShimSum">
+            <summary>TDDTest_Currency_.Sum 的填充码类型</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimSum.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimSum.#ctor(TDDTest_Currency_.Sum)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimSum.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimSum.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.ShimSum.Bind(TDDTest_Currency_.IExpression)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimSum.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimSum.ConstructorIExpressionIExpression">
+            <summary>设置 Sum.Sum(IExpression augend, IExpression addend) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimSum.PlusIExpression">
+            <summary>设置 Sum.Plus(IExpression addend) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimSum.ReduceBankString">
+            <summary>设置 Sum.Reduce(Bank bank, String to) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimSum.TimesInt32">
+            <summary>设置 Sum.Times(Int32 multiplier) 的 填充码</summary>
+        </member>
+        <member name="T:TDDTest_Currency_.Fakes.ShimSum.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimSum.AllInstances.PlusIExpression">
+            <summary>设置 Sum.Plus(IExpression addend) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimSum.AllInstances.ReduceBankString">
+            <summary>设置 Sum.Reduce(Bank bank, String to) 的 填充码</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.ShimSum.AllInstances.TimesInt32">
+            <summary>设置 Sum.Times(Int32 multiplier) 的 填充码</summary>
+        </member>
+        <member name="T:TDDTest_Currency_.Fakes.StubBank">
+            <summary>TDDTest_Currency_.Bank 的存根类型</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubBank.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubBank.InitializeStub">
+            <summary>初始化 type StubBank 的新实例</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.StubBank.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.StubBank.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.StubBank.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:TDDTest_Currency_.Fakes.StubIExpression">
+            <summary>TDDTest_Currency_.IExpression 的存根类型</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubIExpression.#ctor">
+            <summary>初始化 type StubIExpression 的新实例</summary>
+        </member>
+        <member name="F:TDDTest_Currency_.Fakes.StubIExpression.PlusIExpression">
+            <summary>设置 IExpression.Plus(IExpression addend) 的 stub</summary>
+        </member>
+        <member name="F:TDDTest_Currency_.Fakes.StubIExpression.ReduceBankString">
+            <summary>设置 IExpression.Reduce(Bank bank, String to) 的 stub</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubIExpression.tddtc::TDDTest_Currency_#IExpression#Plus(TDDTest_Currency_.IExpression)">
+            <summary>设置 IExpression.Plus(IExpression addend) 的 存根</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubIExpression.tddtc::TDDTest_Currency_#IExpression#Reduce(TDDTest_Currency_.Bank,System.String)">
+            <summary>设置 IExpression.Reduce(Bank bank, String to) 的 存根</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubIExpression.tddtc::TDDTest_Currency_#IExpression#Times(System.Int32)">
+            <summary>设置 IExpression.Times(Int32 multiplier) 的 存根</summary>
+        </member>
+        <member name="F:TDDTest_Currency_.Fakes.StubIExpression.TimesInt32">
+            <summary>设置 IExpression.Times(Int32 multiplier) 的 stub</summary>
+        </member>
+        <member name="T:TDDTest_Currency_.Fakes.StubMoney">
+            <summary>TDDTest_Currency_.Money 的存根类型</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubMoney.#ctor(System.Int32,System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubMoney.Equals(System.Object)">
+            <summary>设置 Money.Equals(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:TDDTest_Currency_.Fakes.StubMoney.EqualsObject">
+            <summary>设置 Money.Equals(Object obj) 的 stub</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubMoney.InitializeStub">
+            <summary>初始化 type StubMoney 的新实例</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubMoney.ToString">
+            <summary>设置 Money.ToString() 的 存根</summary>
+        </member>
+        <member name="F:TDDTest_Currency_.Fakes.StubMoney.ToString01">
+            <summary>设置 Money.ToString() 的 stub</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.StubMoney.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.StubMoney.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.StubMoney.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:TDDTest_Currency_.Fakes.StubSum">
+            <summary>TDDTest_Currency_.Sum 的存根类型</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubSum.#ctor(TDDTest_Currency_.IExpression,TDDTest_Currency_.IExpression)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:TDDTest_Currency_.Fakes.StubSum.InitializeStub">
+            <summary>初始化 type StubSum 的新实例</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.StubSum.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.StubSum.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:TDDTest_Currency_.Fakes.StubSum.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>
