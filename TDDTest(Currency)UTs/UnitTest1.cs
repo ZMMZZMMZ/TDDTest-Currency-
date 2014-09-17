@@ -124,5 +124,11 @@ namespace TDDTest_Currency_UTs
             IExpression sum = Money.Dollar(1).Plus(Money.Dollar(1));
             Assert.IsFalse(sum is Money);
         }
+
+        [TestMethod]
+        public void NewTest()
+        {
+            // this is a new test method 
+        }
     }
 }
